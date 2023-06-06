@@ -95,9 +95,9 @@ Publish the website in the given URL.
 
 
 ## HTML VALIDATOR:
-![image](https://github.com/SAILESHKUMAR33/softweb/assets/113497410/8f4de68d-946b-4d45-978b-41ca89539098)
+
 
 ![image](https://github.com/SAILESHKUMAR33/softweb/assets/113497410/cc3edc47-6bea-4c88-a25f-5cd30810fc6a)
-
+![image](https://github.com/SAILESHKUMAR33/softweb/assets/113497410/8f4de68d-946b-4d45-978b-41ca89539098)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
