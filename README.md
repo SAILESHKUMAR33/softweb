@@ -91,6 +91,7 @@ Publish the website in the given URL.
 ```
 
 ## OUTPUT:
+![image](https://github.com/SAILESHKUMAR33/softweb/assets/113497410/db09f581-91fb-4cfb-ac92-a9070fa2468e)
 
 
 ## HTML VALIDATOR:
