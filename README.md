@@ -26,78 +26,270 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
+### layout.css
 ```
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Lamborghini Car Company</title>
-</head>
-<body>
-  <header>
-    <h1>Welcome to Lamborghini Car Company</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#models">Models</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <section id="home">
-    <h2>Experience the Thrill of Lamborghini Cars</h2>
-    <p>At Lamborghini, we are dedicated to delivering unmatched performance and luxury with our iconic sports cars.</p>
-    <a href="#models" class="btn">Discover our Models</a>
-  </section>
-  
-  <section id="models">
-    <h2>Our Model Lineup</h2>
-    <div class="model">
-      <img src="model1.jpg" alt="Model 1">
-      <h3>Lamborghini Model 1</h3>
-      <p>The Lamborghini Model 1 is a powerful and aerodynamic sports car that offers an exhilarating driving experience.</p>
+<html lang="en">
+  <head>
+    <title>invensys Private Limited</title>
+
+     <link rel="stylesheet" href="/static/layout.css">
+    <link rel="icon" href="/static/icon.png" type="image/x-icon">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">invensys Private Limited.</div>
+      <div class="menu">
+        <div class="menuitemselected"><a href="/home/">Home</a></div>
+        <div class="menuitemselected"><a href="/products/">Products</a></div>
+        <div class="menuitemselected"><a href="/people/">People</a></div>
+        <div class="menuitemselected"><a href="/contactus/">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">   
+          <h1>PEOPLE AT invensys</h1>
+          <div class="productitems">
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/images/people1.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Rafi Moran</div>
+                  <div class="itemprice">President & CEO</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/images/people2.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">Uri Heiman</div>
+                  <div class="itemprice">Executive Vice President Operations</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/images/people3.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Hernan Garber</div>
+                  <div class="itemprice">Executive Vice President, Business Development & Marketing</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/images/people4.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Vered Yishay</div>
+                  <div class="itemprice">Executive Vice President Product Management and Development</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/images/people5.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Tsachi Gal</div>
+                  <div class="itemprice">Vice President, Finance & CFO</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/images/people6.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Feng Yu</div>
+                  <div class="itemprice">ETS Associate Vice President of Global TOEIC Management</div>
+              </div>
+
+          </div>
+          </div>       
+      </div>
+      <div class="footer">
+        Copyright &#169; 2023 invensys Limited, Developed by saileshkumar
+      </div>
     </div>
-    <div class="model">
-      <img src="model2.jpg" alt="Model 2">
-      <h3>Lamborghini Model 2</h3>
-      <p>The Lamborghini Model 2 combines elegance and performance, showcasing the perfect blend of style and speed.</p>
+  </body>
+</html>
+```
+### home.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EduSoft Private Limited</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">EduSoft Private Limited.</div>
+      <div class="menu">
+        <div class="menuitemselected"><a href="/static/html/home.html">Home</a></div>
+        <div class="menuitem"><a href="/static/html/products.html">Products</a></div>
+        <div class="menuitem"><a>People</a></div>
+        <div class="menuitem"><a>Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="homecontent">
+          <h1>About Us</h1>
+          <img src="./img/building.png" alt="Building" />
+          <div class="contenttext">
+            At Tally, we believe in the power of technology to make business
+            owners efficient, empowered and happier, so they can focus on what
+            matters most for their business. We design our products to focus on
+            just that to make our products work for you, and not the other way
+            around.
+            <br />
+            Our new product TallyPrime takes this to a new level, making your
+            start to automation, or your switch to Tally simpler than ever
+            before. You can now discover the product much more easily and make
+            the product do more for you, without learning anything new. There is
+            greater flexibility as the product adapts to your business and your
+            way of working. And the transformed look and feel will only make you
+            love the product even more.
+            <ul>
+              <li>Simple to learn, easier to use</li>
+              <li>Insightful , actionable & customizable reports</li>
+              <li>Anywhere, anytime and secure access</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Copyright &#169; 2023 EduSoft Private Limited, Developed by saileshkumar
+      </div>
     </div>
-    <div class="model">
-      <img src="model3.jpg" alt="Model 3">
-      <h3>Lamborghini Model 3</h3>
-      <p>The Lamborghini Model 3 is a luxury sports car that pushes the boundaries of design and engineering.</p>
+  </body>
+</html>
+```
+### product.html:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EduSoft Private Limited</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">EduSoft Private Limited.</div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitemselected">
+          <a href="/static/products.html">Products</a>
+        </div>
+        <div class="menuitem"><a>People</a></div>
+        <div class="menuitem"><a>Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">    
+          <h1>Our Premium Products</h1>
+          <div class="productitems">
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/img/tally_gold.png" alt="product image">
+                  </div>
+                  <div class="itemname">Tally Gold</div>
+                  <div class="itemprice">Price: Rs.40,000.00 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/static/img/tally_silver.png"  alt="product image">
+                  </div>
+                  <div class="itemname">Tally Silver</div>
+                  <div class="itemprice">Price: Rs.10,000.00 </div>
+              </div>
+          </div>
+          </div>        
+      </div>
+      <div class="footer">
+        Copyright &#169; 2023 EduSoft Private Limited, Developed by saileshkumar
+      </div>
     </div>
-  </section>
-  
-  <section id="about">
-    <h2>About Lamborghini Car Company</h2>
-    <p>Lamborghini Car Company is a world-renowned manufacturer of high-performance sports cars.</p>
-    <p>We are passionate about creating extraordinary driving experiences with our cutting-edge technology and distinctive designs.</p>
-  </section>
-  
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>If you have any questions or inquiries, please feel free to contact us.</p>
-    <p>Email: info@lamborghini.com</p>
-    <p>Phone: 123-456-7890</p>
-  </section>
-  
-  <footer>
-    <p>&copy; 2023 Lamborghini Car Company. All rights reserved.</p>
-  </footer>
-</body>
+  </body>
+</html>
+```
+### people.html
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EduSoft Private Limited</title>
+
+     <link rel="stylesheet" href="/static/layout.css">
+    <link rel="icon" href="/static/icon.png" type="image/x-icon">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">EdoSoft Private Limited.</div>
+      <div class="menu">
+        <div class="menuitemselected"><a href="/home/">Home</a></div>
+        <div class="menuitemselected"><a href="/products/">Products</a></div>
+        <div class="menuitemselected"><a href="/people/">People</a></div>
+        <div class="menuitemselected"><a href="/contactus/">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">   
+          <h1>PEOPLE AT invensys</h1>
+          <div class="productitems">
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/img/people1.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Rafi Moran</div>
+                  <div class="itemprice">President & CEO</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/img/people2.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">Uri Heiman</div>
+                  <div class="itemprice">Executive Vice President Operations</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/img/people3.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Hernan Garber</div>
+                  <div class="itemprice">Executive Vice President, Business Development & Marketing</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/img/people4.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Vered Yishay</div>
+                  <div class="itemprice">Executive Vice President Product Management and Development</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/img/people5.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Tsachi Gal</div>
+                  <div class="itemprice">Vice President, Finance & CFO</div>
+              </div>
+              <div class="productitem">
+                  <div class="itemimage">
+                  <img src="/static/img/people6.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Feng Yu</div>
+                  <div class="itemprice">ETS Associate Vice President of Global TOEIC Management</div>
+              </div>
+
+          </div>
+          </div>       
+      </div>
+      <div class="footer">
+        Copyright &#169; 2023 EduSoft Private Limited, Developed by saileshkumar
+      </div>
+    </div>
+  </body>
 </html>
 ```
 
 ## OUTPUT:
-![image](https://github.com/SAILESHKUMAR33/softweb/assets/113497410/db09f581-91fb-4cfb-ac92-a9070fa2468e)
-
+![k](https://github.com/shara56/softweb/assets/113497104/d329d6d2-5488-49bc-b12c-ecefe3255a54)
+![k1](https://github.com/shara56/softweb/assets/113497104/8b0e81f6-d3e1-4581-8ea7-9824f71989cd)
 
 ## HTML VALIDATOR:
 
 
-![image](https://github.com/SAILESHKUMAR33/softweb/assets/113497410/cc3edc47-6bea-4c88-a25f-5cd30810fc6a)
-![image](https://github.com/SAILESHKUMAR33/softweb/assets/113497410/8f4de68d-946b-4d45-978b-41ca89539098)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
